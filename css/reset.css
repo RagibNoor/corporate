@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'raleway' ,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#777;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    color:#555;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:#555;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color:#333;
+}
+.primary{
+    color:#e74c3c;
+}
+.primary-bg{
+    background-color: #e74c3c;
+}
+
+.secondary-dark{
+    color:#34495e;
+}
+.secondary-dark-bg{
+    background-color: #34495e;
+}
+.secondary-light{
+    color:#2d82d8;
+}
+.secondary-light-bg{
+    background-color: #2d82d8;
+}
