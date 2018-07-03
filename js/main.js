@@ -9,13 +9,18 @@ jQuery(document).ready(function(){
             duration:500,
             pauseOnHover:true,
         },
-        auto:true,
+        auto:false,
         items:{
             visible:{
                 min:1,
                 max:1,
-            }
+            },
+            height:"variable"
         },
-        height:"variable"
+        pagination:{
+            container:".slider-pager",
+            anchorbuilder:false, 
+        }
+        
     })
 })
