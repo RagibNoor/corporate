@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    height: 2000px;
     font-family: 'raleway' ,sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -53,4 +54,7 @@ ul li {
 }
 .secondary-light-bg{
     background-color: #2d82d8;
+}
+.nav-bg {
+    background-color: #333;
 }

@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
             duration:500,
             pauseOnHover:true,
         },
-        auto:false,
+        auto:true,
         items:{
             visible:{
                 min:1,
@@ -19,8 +19,17 @@ jQuery(document).ready(function(){
         },
         pagination:{
             container:".slider-pager",
-            anchorbuilder:false, 
+            anchorBuilder:false, 
         }
         
+    })
+    $(window).scroll(function(){
+        var top = $(window).scrollTop();
+        if(top>=40){
+            $("header").addClass("nav-bg");
+        }
+        else {
+            $("header").removeClass("nav-bg");
+        }
     })
 })
